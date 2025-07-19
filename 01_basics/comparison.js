@@ -9,7 +9,8 @@ console.log(null>=0)
 
 //there is difference between comparison and in to equal
  // "===" strict equal checks the value as well its datatype
-console.log("2"===2) //checked its datatype one is string and other is number so operation will not performed
+console.log("2"===2) //checked its datatype one is string and other is number so 
+//operation will not performed
 
 
 
