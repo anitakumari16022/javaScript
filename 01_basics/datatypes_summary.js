@@ -27,3 +27,26 @@ console.log(myfunction)
   //Array=>object
   //Function=>function
   //object=>object
+
+  //------------------------------------------------
+  //stack(primitive)  ,heap(non-primitive)
+//   let namw='anita'
+//   let anothername=namw
+//   anothername="kumari"
+//   console.log(namw)
+//   console.log(anothername)
+// in stcak when we copy the value of datype into another we get a refrence or 
+// copied value of the datatype;it means any change in the second value
+//will not be reflected back to original datatype 
+
+let value1={
+    email:"hello@gmail",
+    name:"asdf"
+}
+let value2=value1
+
+value2.name="qwer"
+console.log(value1)
+console.log(value2)
+// in heap we made changes in the second object but it isreflecting back into theb first object
+//bcoz the object is taking the address(reference) not the copied value.
